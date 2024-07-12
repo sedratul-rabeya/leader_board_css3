@@ -7,7 +7,10 @@ body{
 
 main{
     display: flex;
+    flex-direction: column;
+    
     justify-content: center;
+    
     
 }
 .top_players{
@@ -24,6 +27,8 @@ main{
     background-color: #ffffff;
     width: 870px;
     padding:30px 30px 30px ;
+    margin-top: 21px;
+    border-radius:5px ;
 }
 hr{
     border: 1px solid #D1D1D1 ;
